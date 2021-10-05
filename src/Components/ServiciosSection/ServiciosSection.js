@@ -1,9 +1,9 @@
 import React from "react";
-import classes from "../estilo.module.css";
+import classes from "./ServiciosSection.module.css";
 
 function ServiciosSection() {
   return (
-    <div className={classes.sectio}>
+    <div className={classes.contenido}>
       <h2>Servicios</h2>
       <p>¿Cómo podemos ayudarle?</p>
       <br />
