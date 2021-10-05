@@ -28,7 +28,7 @@ const MenuMain = () => {
           <ServiciosSection />
         </Route>
         <Route exact path="/info">
-          <p>Hola2</p>
+          <QuienesSection />
         </Route>
         <Route exact path="/contacto">
           <p>Hola3</p>
