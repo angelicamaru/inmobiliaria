@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import InicioSection from "../InicioSection/Inicio";
 import ServiciosSection from "../ServiciosSection/ServiciosSection";
+import InfoSection from "../InfoSection/InfoSection";
 import classes from "./Menu.module.css";
 
 const MenuMain = () => {
@@ -28,7 +29,7 @@ const MenuMain = () => {
           <ServiciosSection />
         </Route>
         <Route exact path="/info">
-        <QuienesSection />
+          <InfoSection />
         </Route>
         <Route exact path="/contacto">
           <p>Hola3</p>

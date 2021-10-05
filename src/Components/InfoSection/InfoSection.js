@@ -1,7 +1,7 @@
 import React from "react";
-import classes from "./QuienesSection.module.css";
+import classes from "./InfoSection.module.css";
 
-function QuienesSection() {
+function InfoSection() {
   return (
     <div className={classes.contenido}>
       <p>Hola</p>
@@ -9,4 +9,4 @@ function QuienesSection() {
   );
 }
 
-export default QuienesSection;
+export default InfoSection;
