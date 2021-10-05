@@ -4,7 +4,7 @@ import classes from "./QuienesSection.module.css";
 function QuienesSection() {
   return (
     <div className={classes.contenido}>
-      <p>HOla</p>
+      <p>Hola</p>
     </div>
   );
 }
