@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+.menu {
+  background-color: aliceblue;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+a:link {
+  text-decoration: none;
+  padding: 4px;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+}

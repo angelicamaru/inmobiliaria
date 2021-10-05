@@ -1,27 +1,24 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import InicioSection from "./InicioSection/Inicio";
-import ServiciosSection from "./ServiciosSection/Servicios";
+import InicioSection from "../InicioSection/Inicio";
+import ServiciosSection from "../ServiciosSection/ServiciosSection";
+import classes from "./Menu.module.css";
 
 const MenuMain = () => {
   return (
     <Router>
-      <div className="Menu">
+      <div className={classes.menu}>
         <h1>Inmobiliaria</h1>
         <hr />
-        <ul>
-          <li>
-            <Link to="/">Inicio</Link>
-          </li>
-          <li>
-            <Link to="/services">Servicios</Link>
-          </li>
-          <li>
-            <Link to="/info">Quiénes somos?</Link>
-          </li>
-          <li>
-            <Link to="/contacto">Contacto</Link>
-          </li>
-        </ul>
+
+        <div className={classes.secciones}>
+          <Link to="/">Inicio</Link>
+
+          <Link to="/services">Servicios</Link>
+
+          <Link to="/info">Quiénes somos?</Link>
+
+          <Link to="/contacto">Contacto</Link>
+        </div>
       </div>
       <Switch>
         <Route exact path="/">
