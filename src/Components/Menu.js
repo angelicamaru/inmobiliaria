@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import InicioSection from "./Inicio";
-import ServiciosSection from "./Servicios/Servicios";
+import InicioSection from "./InicioSection/Inicio";
+import ServiciosSection from "./ServiciosSection/Servicios";
 
 const MenuMain = () => {
   return (

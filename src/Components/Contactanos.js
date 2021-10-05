@@ -1,5 +1,5 @@
 import Boton from "./Button";
-import ContactFs from "./ContactForm";
+import ContactFs from "./InicioSection/ContactForm";
 
 const Contactanos = () => {
   return (

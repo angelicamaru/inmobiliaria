@@ -1,4 +1,4 @@
-import ContactField from "./CampoFormContact";
+import ContactField from "../CampoFormContact";
 
 const ContactFs = () => {
   const campos = [

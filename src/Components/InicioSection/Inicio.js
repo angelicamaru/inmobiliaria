@@ -1,7 +1,7 @@
 import ServiciosInicio from "./ServicesInicio";
 import QuieneSomos from "./QuienesSomos";
-import Contactanos from "./Contactanos";
-import Footer from "./Footer";
+import Contactanos from "../Contactanos";
+import Footer from "../Footer";
 
 const InicioSection = () => {
   return (
