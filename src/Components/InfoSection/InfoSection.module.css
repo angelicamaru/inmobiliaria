@@ -14,6 +14,12 @@
     font-size: 50px;
 }
 
+.texto{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 @font-face {
     font-family: Kepler;
     src: url(/src/Components/Fonts/Kepler\ Std\ Semicondensed\ Subhead.otf);
