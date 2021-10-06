@@ -1,0 +1,14 @@
+{"services":[
+    {"name":"Venta y Arriendo",
+     "descripcion":"Encuentra aquí todo tipo de lugares acomodados a todo lo que necesitas y a los mejores precios",
+    "imagen":"https://static.wixstatic.com/media/3acb76_094f79b345be425db65049ab752f2b0a~mv2.jpg/v1/fill/w_603,h_400,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_094f79b345be425db65049ab752f2b0a~mv2.webp"
+     },{"name":"Administración",
+     "descripcion":"Proporcionamos servicio de administración para conjuntos residenciales y clubes",
+     "imagen":"https://static.wixstatic.com/media/3acb76_7c4db3606a694cc39a4040d3aba4736a~mv2.jpg/v1/fill/w_603,h_400,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_7c4db3606a694cc39a4040d3aba4736a~mv2.webp"
+    },{"name":"Avalúos",
+        "descripcion":"Brindamos asesoría especializada para determinar el valor comercial de su bien",
+        "imagen":"https://static.wixstatic.com/media/3acb76_4cfebc198f034fce9228d01e6288b46b~mv2.jpg/v1/fill/w_603,h_400,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_4cfebc198f034fce9228d01e6288b46b~mv2.webp"
+       }
+     ]}
+
+     

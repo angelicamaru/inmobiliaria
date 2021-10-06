@@ -1,5 +1,5 @@
-const Boton = (p) => {
+const Button = (p) => {
   return <button>{p.name}</button>;
 };
 
-export default Boton;
+export default Button;
