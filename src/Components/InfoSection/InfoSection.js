@@ -3,9 +3,6 @@ import classes from "./InfoSection.module.css";
 import escaleras from '../Images/Escaleras.jpeg'
 import senior from '../Images/Senior.jpeg'
 import Image from 'react-bootstrap/Image'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 
 function InfoSection() {
   return (
@@ -29,24 +26,23 @@ function InfoSection() {
         <div className={classes.fundador}>
           <label>Fundador</label>
         </div>
-        <Container>
-          <Row>
-            <Col>
-              <Image src={senior} rounded />
-            </Col>
-            <Col>
-              <div className={classes.texto3}>
-                <p>N. Barbosa</p>
-              </div>
-              <div className={classes.texto2}>
-                <p>Esta es tu descripción del Miembro del equipo. 
-                  Utiliza este espacio para describir brevemente el puesto y las responsabilidades 
-                  de esta persona, o incluye una breve biografía suya. Es una gran oportunidad para 
-                  resaltar la importancia de esta persona en el equipo.</p>
-              </div>
-            </Col>
-          </Row>
-        </Container>
+        <div className={classes.contenedor}>
+          <div>
+            <Image src={senior} rounded />
+          </div>
+          <div>
+            <div className={classes.textotit}>
+              <p>N. Barbosa</p>
+            </div>
+            <div className={classes.textocont}>
+              <p>Esta es tu descripción del Miembro del equipo. 
+                Utiliza este espacio para describir brevemente el puesto y las responsabilidades 
+                de esta persona, o incluye una breve biografía suya. Es una gran oportunidad para 
+                resaltar la importancia de esta persona en el equipo.</p>  
+            </div>
+          </div>
+        </div>
+                          
       </div>
     </div>
   );
