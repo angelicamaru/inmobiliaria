@@ -6,7 +6,7 @@ function TarjetaService(props) {
       <div className={classes.descripcion}>
         <h3>{props.nameService}</h3>
         <p>{props.descripcion}</p>
-        <Button name="Ver más" />
+        <Button name="Ver más" link={props.link} />
       </div>
       <div className={classes.imagenDiv}>
         {" "}

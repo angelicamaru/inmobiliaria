@@ -30,6 +30,7 @@ class ServiciosSection extends Component {
           nameService={p.name}
           descripcion={p.descripcion}
           imagen={p.imagen}
+          link={p.link}
         />
       </div>
     ));

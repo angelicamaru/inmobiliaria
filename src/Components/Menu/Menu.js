@@ -34,6 +34,15 @@ const MenuMain = () => {
         <Route exact path="/contacto">
           <p>Hola3</p>
         </Route>
+        <Route exact path="/ventaArriendo">
+          <InfoSection />
+        </Route>
+        <Route exact path="/administracion">
+          <InfoSection />
+        </Route>
+        <Route exact path="/avaluos">
+          <InfoSection />
+        </Route>
       </Switch>
     </Router>
   );
