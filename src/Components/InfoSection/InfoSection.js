@@ -12,7 +12,7 @@ function InfoSection() {
 
         <div className={classes.titulo}>
 
-          <h2>Todo sobre nosotros</h2>
+          <label>Todo sobre nosotros</label>
 
         </div>
       </div>

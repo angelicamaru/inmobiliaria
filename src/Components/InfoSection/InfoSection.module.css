@@ -1,12 +1,20 @@
 .contenido {
-    margin-top: 80px;
+    background-color: #fbfbec;
 }
 .centrar{
+    padding-top: 80px;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 .titulo{
     margin-top: 20px;
-    color: black;
+    color: #1a3336;
+    font-family: Kepler;
+    font-size: 50px;
+}
+
+@font-face {
+    font-family: Kepler;
+    src: url(/src/Components/Fonts/Kepler\ Std\ Semicondensed\ Subhead.otf);
 }
