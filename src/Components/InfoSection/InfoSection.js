@@ -13,13 +13,13 @@ function InfoSection() {
           <label>Todo sobre nosotros</label>
         </div>
         <div className={classes.texto}>
-          <p>Somos un emprendimiento que cuenta con un gran equipo de trabajo que posee
+          <label>Somos un emprendimiento que cuenta con un gran equipo de trabajo que posee
             una basta experiencia en el campo inmobiliario, además contamos con las mejores
             herramientas para ayudarte en todo lo que necesites.
-          </p>
-          <p>Si estas buscando una empresa de desarrollo inmobiliario que te ayude a
+          </label>
+          <label>Si estas buscando una empresa de desarrollo inmobiliario que te ayude a
             convertir tus ideas en una realidad, considera a Inmobiliaria, tenemos los conocimientos,
-            las habilidades y el deseo para ayudarte a triunfar.</p>
+            las habilidades y el deseo para ayudarte a triunfar.</label>
         </div>
       </div>
       <div className={classes.medio}>
@@ -32,13 +32,13 @@ function InfoSection() {
           </div>
           <div>
             <div className={classes.textotit}>
-              <p>N. Barbosa</p>
+              <label>N. Barbosa</label>
             </div>
             <div className={classes.textocont}>
-              <p>Esta es tu descripción del Miembro del equipo. 
+              <label>Esta es tu descripción del Miembro del equipo. 
                 Utiliza este espacio para describir brevemente el puesto y las responsabilidades 
                 de esta persona, o incluye una breve biografía suya. Es una gran oportunidad para 
-                resaltar la importancia de esta persona en el equipo.</p>  
+                resaltar la importancia de esta persona en el equipo.</label>  
             </div>
           </div>
         </div>
