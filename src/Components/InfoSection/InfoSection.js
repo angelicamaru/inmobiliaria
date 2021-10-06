@@ -3,6 +3,8 @@ import classes from "./InfoSection.module.css";
 import escaleras from '../Images/Escaleras.jpeg'
 import senior from '../Images/Senior.jpeg'
 import Image from 'react-bootstrap/Image'
+import Footer from "../Footer";
+import Contacto from "../Contacto"
 
 function InfoSection() {
   return (
@@ -41,9 +43,12 @@ function InfoSection() {
                 resaltar la importancia de esta persona en el equipo.</label>  
             </div>
           </div>
-        </div>
-                          
+        </div>                 
       </div>
+      <div>
+        <Contacto />
+      </div>
+      <Footer />
     </div>
   );
 }
