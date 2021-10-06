@@ -20,9 +20,13 @@ const InicioSection = () => {
           </div>
         </div>
       </div>
-      <div>
-        <h3>Nuestros Servicios</h3>
-        <h4>¿Cómo podemos ayudarle?</h4>
+      <div className={classes.servicios}>
+        <div className={classes.nuestros}>
+          <label>Nuestros Servicios</label>
+        </div>
+        <div className={classes.info}>
+          <label>¿Cómo podemos ayudarle?</label>
+        </div>
         <ServiciosInicio />
       </div>
       <QuieneSomos />
