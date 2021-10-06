@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image'
 function InfoSection() {
   return (
     <div className={classes.contenido}>
-      <div className={classes.centrar}>
+      <div className={classes.inicio}>
         <Image src={escaleras} roundedCircle />
         <div className={classes.titulo}>
           <label>Todo sobre nosotros</label>
@@ -20,6 +20,12 @@ function InfoSection() {
             convertir tus ideas en una realidad, considera a Inmobiliaria, tenemos los conocimientos,
             las habilidades y el deseo para ayudarte a triunfar.</p>
         </div>
+      </div>
+      <div className={classes.medio}>
+        <div className={classes.fundador}>
+          <label>Fundador</label>
+        </div>
+        
       </div>
     </div>
   );

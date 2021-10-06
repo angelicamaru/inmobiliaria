@@ -1,26 +1,48 @@
-.contenido {
+.contenido{
     background-color: #fbfbec;
 }
-.centrar{
-    padding-top: 80px;
+.inicio{
+    padding-top: 50px;
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: #fbfbec;
 }
 .titulo{
     margin-top: 20px;
     color: #1a3336;
     font-family: Kepler;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .texto{
     margin-top: 20px;
     margin-left: 200px;
     margin-right: 200px;
+    font-family: GoghBook;
+    padding-bottom: 70px;
+}
+.medio{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 46, 44)
+    ;
+}
+
+.fundador{
+    padding-top: 110px;
+    font-family: Kepler;
+    font-size: 40px;
+    color: white;
 }
 
 @font-face {
     font-family: Kepler;
     src: url(/src/Components/Fonts/Kepler\ Std\ Semicondensed\ Subhead.otf);
+}
+
+@font-face {
+    font-family: GoghBook;
+    src: url(/src/Components/Fonts/Gogh-Book.ttf);
 }
