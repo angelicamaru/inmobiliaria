@@ -1,6 +1,12 @@
 .contenido {
+    margin-top: 80px;
+}
+.centrar{
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: aqua;
+}
+.titulo{
+    margin-top: 20px;
+    color: black;
 }

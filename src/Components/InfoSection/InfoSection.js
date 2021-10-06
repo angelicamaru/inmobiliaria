@@ -1,13 +1,21 @@
 import React from "react";
 import classes from "./InfoSection.module.css";
-import {roundedCircle} from 'react-bootstrap'
 import escaleras from '../Images/Escaleras.jpeg'
 import Image from 'react-bootstrap/Image'
 
 function InfoSection() {
   return (
     <div className={classes.contenido}>
-      <Image src={escaleras} roundedCircle />
+      <div className={classes.centrar}>
+
+        <Image src={escaleras} roundedCircle />
+
+        <div className={classes.titulo}>
+
+          <h2>Todo sobre nosotros</h2>
+
+        </div>
+      </div>
     </div>
   );
 }
