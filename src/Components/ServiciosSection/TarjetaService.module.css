@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Playfair+Display&display=swap");
 .descripcion {
   width: 700px;
   height: 500px;
@@ -29,6 +30,10 @@
 
 p {
   font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+h3 {
   font-weight: 200;
-  font-size: 18px;
 }
