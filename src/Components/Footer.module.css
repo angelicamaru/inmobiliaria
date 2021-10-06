@@ -1,0 +1,13 @@
+.contenido{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: GoghBook;
+    color: #1a3336;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+@font-face {
+    font-family: GoghBook;
+    src: url(/src/Components/Fonts/Gogh-Book.ttf);
+}

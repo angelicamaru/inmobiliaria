@@ -1,10 +1,14 @@
 import SocialN from "./SocialN";
+import classes from './Footer.module.css'
 
 const Footer = () => {
   return (
     <footer>
-      <SocialN />
-      <h4>©2021 por Inmobiliaria</h4>
+      <div className={classes.contenido}>
+        <SocialN />
+        <br></br>
+        <label>©2021 por Inmobiliaria</label>
+      </div>
     </footer>
   );
 };
