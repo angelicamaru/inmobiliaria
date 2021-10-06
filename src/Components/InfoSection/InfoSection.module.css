@@ -14,7 +14,6 @@
     font-family: Kepler;
     font-size: 40px;
 }
-
 .texto{
     margin-top: 20px;
     margin-left: 200px;
@@ -22,26 +21,43 @@
     font-family: GoghBook;
     padding-bottom: 70px;
 }
+.texto2{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: GoghBook;
+    padding-bottom: 70px;
+    color: white;
+}
+.texto3{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: Kepler;
+    padding-bottom: 70px;
+    color: white;
+}
 .medio{
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: rgb(17, 46, 44)
-    ;
+    background-color: rgb(17, 46, 44);
 }
-
 .fundador{
     padding-top: 110px;
+    padding-bottom: 30px;
     font-family: Kepler;
     font-size: 40px;
     color: white;
+}
+.contenedor{
+    flex: left;
 }
 
 @font-face {
     font-family: Kepler;
     src: url(/src/Components/Fonts/Kepler\ Std\ Semicondensed\ Subhead.otf);
 }
-
 @font-face {
     font-family: GoghBook;
     src: url(/src/Components/Fonts/Gogh-Book.ttf);
