@@ -4,6 +4,8 @@ import Contactanos from "../Contactanos";
 import Footer from "../Footer";
 import classes from '../InicioSection/Inicio.module.css'
 import inmobiliaria from '../Images/Inmobiliaria.png'
+import casa from '../Images/Casa.jpeg'
+import Image from 'react-bootstrap/Image'
 
 const InicioSection = () => {
   return (
@@ -30,7 +32,9 @@ const InicioSection = () => {
         <ServiciosInicio />
       </div>
       <QuieneSomos />
-      <img></img>
+      <div className={classes.casa}>
+        <Image src={casa} fluid />
+      </div>
       <Contactanos />
       <Footer />
     </div>
