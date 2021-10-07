@@ -7,6 +7,7 @@ import VentaArriedoInmueble from "../Inmuebles/VentaArriedoInmueble";
 import classes from "./Menu.module.css";
 import DetalleInmueble from "../Inmuebles/DetalleInmueble";
 import Footer from "../Footer";
+import Contact from '../Contacto/Contact' 
 
 const MenuMain = () => {
   return (
@@ -36,7 +37,7 @@ const MenuMain = () => {
           <InfoSection />
         </Route>
         <Route exact path="/contacto">
-          <p>Hola3</p>
+          <Contact/>
         </Route>
         <Route exact path="/ventaArriendo">
           <ContainerArriendoVenta />

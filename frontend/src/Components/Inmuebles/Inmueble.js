@@ -1,5 +1,5 @@
 import classes from "./Inmueble.module.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {Link } from "react-router-dom";
 
 function Inmueble(props) {
   debugger;
