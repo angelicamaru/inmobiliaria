@@ -2,7 +2,10 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import InicioSection from "../InicioSection/Inicio";
 import ServiciosSection from "../ServiciosSection/ServiciosSection";
 import InfoSection from "../InfoSection/InfoSection";
+import ContainerArriendoVenta from "../ArriendoVenta/ContainerArriendoVenta";
+import VentaArriedoInmueble from "../Inmuebles/VentaArriedoInmueble";
 import classes from "./Menu.module.css";
+import DetalleInmueble from "../Inmuebles/DetalleInmueble";
 
 const MenuMain = () => {
   return (
@@ -35,7 +38,16 @@ const MenuMain = () => {
           <p>Hola3</p>
         </Route>
         <Route exact path="/ventaArriendo">
-          <InfoSection />
+          <ContainerArriendoVenta />
+        </Route>
+        <Route exact path="/ventaInmueble">
+          <VentaArriedoInmueble operacion="inmueblesVenta" />
+        </Route>
+        <Route exact path="/arriendoInmueble">
+          <VentaArriedoInmueble operacion="inmueblesArriendo" />
+        </Route>
+        <Route path="/detalleInmueble/:operacion/:id">
+          <DetalleInmueble />
         </Route>
         <Route exact path="/administracion">
           <InfoSection />

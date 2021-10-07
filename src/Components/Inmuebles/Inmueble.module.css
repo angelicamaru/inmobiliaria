@@ -1,0 +1,63 @@
+.contenido {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+p,
+h3,
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.nombreService {
+  padding-bottom: 1.875rem;
+}
+
+.imageDiv {
+  width: 23rem;
+  height: 15rem;
+  margin-top: 2.5rem;
+}
+.imageDivUno {
+  width: 23rem;
+  height: 15rem;
+  margin: 2.5rem;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+h3 {
+  font-size: 0.625rem;
+}
+.nameInmueble {
+  font-size: 1.875rem;
+  margin-bottom: 0%;
+  margin-top: -5%;
+}
+p {
+  margin-top: -3%;
+}
+a:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(0, 0, 0);
+
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+
+.texto {
+  width: 23rem;
+  height: 15rem;
+  margin-top: 2.5rem;
+  padding-top: 2.1875rem;
+}

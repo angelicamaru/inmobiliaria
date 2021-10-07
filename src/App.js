@@ -5,3 +5,6 @@ const App = () => {
 };
 
 export default App;
+
+//json-server --watch db.json --port 3001
+//npm install axios

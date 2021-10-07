@@ -12,6 +12,69 @@
         "descripcion":"Brindamos asesoría especializada para determinar el valor comercial de su bien",
         "imagen":"https://static.wixstatic.com/media/3acb76_4cfebc198f034fce9228d01e6288b46b~mv2.jpg/v1/fill/w_603,h_400,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_4cfebc198f034fce9228d01e6288b46b~mv2.webp"
        }
-     ]}
+     ],
+     "inmueblesVenta":[
+      {"id":1,
+        "area":"80m^2",
+        "descripcion":"1 alcoba ,1 baño",
+        "name":"Apartaestudio",
+       "precio":"$630.000",
+      "imagen":"https://static.wixstatic.com/media/3acb76_e0061ae5a249459fa2347e1c468e37c9~mv2.jpg/v1/fill/w_386,h_240,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_e0061ae5a249459fa2347e1c468e37c9~mv2.webp"
+       },{"id":2,
+        "area":"80m^2",
+        "descripcion":"1 alcoba ,1 baño","name":"Apartamento",
+        "precio":"$1'200.000",
+       "imagen":"https://static.wixstatic.com/media/3acb76_8bff19275b2e450aaf1b9d310d7ded01~mv2.jpg/v1/fill/w_386,h_240,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_8bff19275b2e450aaf1b9d310d7ded01~mv2.webp"
+        },{"id":3,
+          "area":"80m^2",
+        "descripcion":"1 alcoba ,1 baño",
+        "name":"Apartamento",
+          "precio":"$2'000.000",
+         "imagen":"https://static.wixstatic.com/media/3acb76_f14bdb4d12da45a89029491478e8af43~mv2.jpg/v1/fill/w_386,h_240,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_f14bdb4d12da45a89029491478e8af43~mv2.webp"
+          },{"id":4,
+            "area":"80m^2",
+        "descripcion":"1 alcoba ,1 baño",
+        "name":"Apartamento",
+            "precio":"$1'200.000",
+           "imagen":"https://static.wixstatic.com/media/3acb76_8bff19275b2e450aaf1b9d310d7ded01~mv2.jpg/v1/fill/w_386,h_240,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_8bff19275b2e450aaf1b9d310d7ded01~mv2.webp"
+            },{"id":5,"name":"Apartamento",
+              "precio":"$2'000.000",
+             "imagen":"https://static.wixstatic.com/media/3acb76_f14bdb4d12da45a89029491478e8af43~mv2.jpg/v1/fill/w_386,h_240,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_f14bdb4d12da45a89029491478e8af43~mv2.webp"
+              }
+        ],
+        "inmueblesArriendo":[
+               {"id":1,
+                "area":"80m^2",
+        "descripcion":"1 alcoba ,1 baño",
+        "name":"Casa",
+                 "precio":"$1'200.000",
+                "imagen":"https://static.wixstatic.com/media/3acb76_8bff19275b2e450aaf1b9d310d7ded01~mv2.jpg/v1/fill/w_386,h_240,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_8bff19275b2e450aaf1b9d310d7ded01~mv2.webp"
+                 },{"id":2,"name":"Apartamento",
+                   "precio":"$2'000.000",
+                  "imagen":"https://static.wixstatic.com/media/3acb76_f14bdb4d12da45a89029491478e8af43~mv2.jpg/v1/fill/w_386,h_240,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_f14bdb4d12da45a89029491478e8af43~mv2.webp"
+                   },{"id":3,"name":"Apartaestudio",
+                    "precio":"$630.000",
+                   "imagen":"https://static.wixstatic.com/media/3acb76_e0061ae5a249459fa2347e1c468e37c9~mv2.jpg/v1/fill/w_386,h_240,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_e0061ae5a249459fa2347e1c468e37c9~mv2.webp"
+                    },{"id":4,"name":"Apartamento",
+                     "precio":"$1'200.000",
+                    "imagen":"https://static.wixstatic.com/media/3acb76_8bff19275b2e450aaf1b9d310d7ded01~mv2.jpg/v1/fill/w_386,h_240,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_8bff19275b2e450aaf1b9d310d7ded01~mv2.webp"
+                     },{"id":5,"name":"Apartamento",
+                       "precio":"$2'000.000",
+                      "imagen":"https://static.wixstatic.com/media/3acb76_f14bdb4d12da45a89029491478e8af43~mv2.jpg/v1/fill/w_386,h_240,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_f14bdb4d12da45a89029491478e8af43~mv2.webp"
+                       },{"id":5,"name":"Apartamento",
+                        "precio":"$2'000.000",
+                       "imagen":"https://static.wixstatic.com/media/3acb76_f14bdb4d12da45a89029491478e8af43~mv2.jpg/v1/fill/w_386,h_240,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_f14bdb4d12da45a89029491478e8af43~mv2.webp"
+                        },{"id":5,"name":"Apartamento",
+                          "precio":"$2'000.000",
+                         "imagen":"https://static.wixstatic.com/media/3acb76_f14bdb4d12da45a89029491478e8af43~mv2.jpg/v1/fill/w_386,h_240,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_f14bdb4d12da45a89029491478e8af43~mv2.webp"
+                          },{"id":5,"name":"Apartamento",
+                            "precio":"$2'000.000",
+                           "imagen":"https://static.wixstatic.com/media/3acb76_f14bdb4d12da45a89029491478e8af43~mv2.jpg/v1/fill/w_386,h_240,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_f14bdb4d12da45a89029491478e8af43~mv2.webp"
+                            },{"id":5,"name":"Apartamento",
+                              "precio":"$2'000.000",
+                             "imagen":"https://static.wixstatic.com/media/3acb76_f14bdb4d12da45a89029491478e8af43~mv2.jpg/v1/fill/w_386,h_240,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3acb76_f14bdb4d12da45a89029491478e8af43~mv2.webp"
+                              }
+
+       ]}
 
      
