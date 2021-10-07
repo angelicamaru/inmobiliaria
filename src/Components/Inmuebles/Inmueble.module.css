@@ -1,13 +1,26 @@
+@font-face {
+  font-family: Kepler;
+  src: url(/src/Components/Fonts/Kepler\ Std\ Semicondensed\ Subhead.otf);
+}
 .contenido {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  background-color: rgb(251, 251, 236);
+  padding-bottom: 80px;
 }
 p,
 h3,
 h2 {
   display: flex;
   justify-content: center;
+}
+
+h3,
+h2 {
+  font-size: 50px;
+  font-weight: 100;
+  font-family: Kepler;
 }
 
 .nombreService {
