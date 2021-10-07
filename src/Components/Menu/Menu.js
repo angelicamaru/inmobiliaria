@@ -6,6 +6,7 @@ import ContainerArriendoVenta from "../ArriendoVenta/ContainerArriendoVenta";
 import VentaArriedoInmueble from "../Inmuebles/VentaArriedoInmueble";
 import classes from "./Menu.module.css";
 import DetalleInmueble from "../Inmuebles/DetalleInmueble";
+import Footer from "../Footer";
 
 const MenuMain = () => {
   return (
@@ -56,6 +57,7 @@ const MenuMain = () => {
           <InfoSection />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 };
