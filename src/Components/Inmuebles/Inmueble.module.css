@@ -7,7 +7,7 @@
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(251, 251, 236);
-  padding-bottom: 80px;
+  padding-bottom: 5rem;
 }
 p,
 h3,
@@ -19,7 +19,7 @@ h2 {
 
 h3,
 h2 {
-  font-size: 50px;
+  font-size: 3.125rem;
   font-weight: 100;
   font-family: Kepler;
 }

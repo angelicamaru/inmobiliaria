@@ -1,37 +1,37 @@
-.contenedor{
-    padding-top: 60px;
-    padding-bottom: 50px;
+.contenedor {
+  padding-top: 3.75rem;
+  padding-bottom: 3.125rem;
 }
-.contenedorcard{
-    display: flex;
-    flex-flow: row;
-    padding: 50px;
-    align-items: center;
+.contenedorcard {
+  display: flex;
+  flex-flow: row;
+  padding: 3.125rem;
+  align-items: center;
 }
-.card{
-    display: flex;
-    flex-flow: column;
-    padding-right: 60px;
+.card {
+  display: flex;
+  flex-flow: column;
+  padding-right: 3.75rem;
 }
-.imagen{
-    width: 60px;
-    height: 60px;
-    margin: auto;
+.imagen {
+  width: 3.75rem;
+  height: 3.75rem;
+  margin: auto;
 }
-.titulocard{
-    font-size: 30px;
-    font-family: Kepler;
+.titulocard {
+  font-size: 1.875rem;
+  font-family: Kepler;
 }
-.textocard{
-    font-size: 17px;
-    font-family: GoghBook;
+.textocard {
+  font-size: 1.0625rem;
+  font-family: GoghBook;
 }
 
 @font-face {
-    font-family: Kepler;
-    src: url(/src/Components/Fonts/Kepler\ Std\ Semicondensed\ Subhead.otf);
+  font-family: Kepler;
+  src: url(/src/Components/Fonts/Kepler\ Std\ Semicondensed\ Subhead.otf);
 }
 @font-face {
-    font-family: GoghBook;
-    src: url(/src/Components/Fonts/Gogh-Book.ttf);
+  font-family: GoghBook;
+  src: url(/src/Components/Fonts/Gogh-Book.ttf);
 }
