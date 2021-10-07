@@ -14,6 +14,7 @@ h3,
 h2 {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 h3,
@@ -72,5 +73,7 @@ a:hover {
   width: 23rem;
   height: 15rem;
   margin-top: 2.5rem;
+  margin-left: 1.25rem;
   padding-top: 2.1875rem;
+  padding: 0.3125rem;
 }

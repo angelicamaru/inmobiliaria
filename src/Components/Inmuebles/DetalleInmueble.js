@@ -24,7 +24,7 @@ function DetalleInmueble() {
       </div>
       <div className={classes.texto}>
         <h2 className={classes.nombreService}>{data.name}</h2>
-        <p>{data.area}</p>
+        <p>Área: {data.area}</p>
         <p>{data.descripcion}</p>
       </div>
     </div>
