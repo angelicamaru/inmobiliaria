@@ -2,7 +2,6 @@ import { useParams } from "react-router";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import classes from "./Inmueble.module.css";
-import Map from "../Inmuebles/Map"
 
 function DetalleInmueble() {
   let { operacion } = useParams();
@@ -28,11 +27,6 @@ function DetalleInmueble() {
         <p>{data.area}</p>
         <p>{data.descripcion}</p>
       </div>
-      <Map
-        googleMapURL= "https://maps.googleapis.com/maps/api/js?key=AIzaSyAYPWtid2EszivVkAX0nugnAeRyElgaPAE"
-        containerElement = {<div style={{height: '400px'}}/>}
-        mapElement = {<div style = {{height: '200px'}}/>}  
-      />
     </div>
   );
 }
