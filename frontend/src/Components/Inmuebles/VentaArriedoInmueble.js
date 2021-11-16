@@ -7,7 +7,6 @@ function VentaArriedoInmueble(props) {
       <div className={classes.contenido}>
         <Inmuebles operacion={props.operacion} />
       </div>
-      <div>foot</div>
     </div>
   );
 }

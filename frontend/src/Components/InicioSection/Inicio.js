@@ -36,6 +36,9 @@ const InicioSection = () => {
       <div className={classes.casa}>
         <Image className={classes.imagen} src={casa} fluid />
       </div>
+      <div className={classes.nuestros}>
+          <label>Contacto</label>
+      </div>
       <div className="container">
         <div class="row justify-content-md-center">
 
