@@ -1,6 +1,5 @@
 import ServiciosInicio from "./ServicesInicio";
 import QuieneSomos from "./QuienesSomos";
-import Footer from "../Footer";
 import classes from "../InicioSection/Inicio.module.css";
 import inmobiliaria from "../Images/Inmobiliaria.png";
 import casa from "../Images/Casa.jpeg";
@@ -35,6 +34,9 @@ const InicioSection = () => {
       <QuieneSomos />
       <div className={classes.casa}>
         <Image className={classes.imagen} src={casa} fluid />
+      </div>
+      <div className={classes.nuestros}>
+        <label>Contacto</label>
       </div>
       <div className="container">
         <div class="row justify-content-md-center">
