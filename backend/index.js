@@ -27,7 +27,7 @@ app.post('/mail', (req, res) => {
         from: '"Inmobiliaria" <prueba31079@gmail.com>', // sender address
         to: req.body.email, // list of receivers
         subject: "Aviso inmoviliaria", // Subject line
-        text: "Este mensaje es de confirmación señor: "+req.body.n + " Con telefono: "+req.body.telefono+', '+req.body.msg+ " Que su solicitud ha sido procesada exitosamente",
+        text: ""+req.body.n + " se confirma que el mensaje: "+req.body.msg+ " enviado a Inmobiliaria fue recibido con éxito!, Gracias por comunicarse con nosotros.",
       }).then(info => {
         console.log({info});
         res.json({'msg':'Perfect'});
