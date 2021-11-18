@@ -141,6 +141,18 @@
       "email": "jvh@prueba.com",
       "pass": "jkgk",
       "id": 4
+    },
+    {
+      "name": "",
+      "email": "signuptest@gmail.com",
+      "pass": "admin123",
+      "id": 5
+    },
+    {
+      "name": "Angelica",
+      "email": "angel@gmail.com",
+      "pass": "123",
+      "id": 6
     }
   ]
 }

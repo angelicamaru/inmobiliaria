@@ -1,15 +1,24 @@
-import React from 'react'
-export default function Logout() {
+import React from "react";
 
-    const handleSubmit=e=>{
-        e.preventDefault()
-        localStorage.removeItem('id');
-        window.location.replace('/')
-    }
-    return (
-        <div>
-            <h1>Do you want to close the current session?</h1>
-            <button className='btn btn-danger' onClick={handleSubmit}>Log out</button>
-        </div>
-    )
+import { Link } from "react-router-dom";
+
+import classes from "./Login.module.css";
+export default function Logout() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    localStorage.removeItem("id");
+    window.location.replace("/");
+  };
+  const cancel = () => {};
+  return (
+    <div className={classes.divider}>
+      <h2>¿Estás seguro de que quieres cerrar la sesión?</h2>
+      <button className={classes.btn} onClick={handleSubmit}>
+        Log out
+      </button>
+      <Link to="/" className={classes.linkT}>
+        Cancel
+      </Link>
+    </div>
+  );
 }

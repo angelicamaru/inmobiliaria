@@ -1,32 +1,58 @@
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.css';
-import axios from 'axios';
-import {Link} from 'react-router-dom'
-export default function Login() {
-    const handleSubmit = async (e) => {
-        e.preventDefault()
-        const [email, pass] = e.target.elements;
-        const res = await axios.get('http://localhost:3001/users' + '?email=' + email.value + '&pass=' + pass.value);
-        if (res.data.length > 0) {
-            localStorage.setItem('id', email.value);
-            window.location.replace('/')
-        } else {
-            window.alert('Email or passwords incorrect, try again')
-        }
-    }
-    return (
-        <>
-            <form onSubmit={handleSubmit}>
-                <div className="mb-3">
-                    <input type="email" className="form-control" name="email" id="email" placeholder="email"/>
-                </div>
-                <div className="mb-3">
-                    <input type="password" name="pass" className="form-control" id="pass" placeholder="password"/>
-                </div>
-                <button type="submit" className="btn btn-primary">Log in</button>
-            </form>
-            <Link to="/signup">Sign Up now</Link>
-        </>
+import React from "react";
+import "bootstrap/dist/css/bootstrap.css";
+import axios from "axios";
+import { Link } from "react-router-dom";
+import classes from "./Login.module.css";
 
-    )
+export default function Login() {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const [email, pass] = e.target.elements;
+    const res = await axios.get(
+      "http://localhost:3001/users" +
+        "?email=" +
+        email.value +
+        "&pass=" +
+        pass.value
+    );
+    if (res.data.length > 0) {
+      localStorage.setItem("id", email.value);
+      window.location.replace("/");
+    } else {
+      window.alert("Email or passwords incorrect, try again");
+    }
+  };
+  return (
+    <>
+      <div className={classes.divider}>
+        <h2>Login</h2>
+        <form onSubmit={handleSubmit}>
+          <div className="mb-3">
+            <input
+              type="email"
+              className="form-control"
+              name="email"
+              id="email"
+              placeholder="email"
+            />
+          </div>
+          <div className="mb-3">
+            <input
+              type="password"
+              name="pass"
+              className="form-control"
+              id="pass"
+              placeholder="password"
+            />
+          </div>
+          <button className={classes.btn} type="submit">
+            Log in
+          </button>
+        </form>
+        <Link to="/signup" className={classes.linkT}>
+          Sign Up now
+        </Link>
+      </div>
+    </>
+  );
 }
