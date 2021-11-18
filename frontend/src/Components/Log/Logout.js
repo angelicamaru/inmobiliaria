@@ -11,16 +11,18 @@ export default function Logout() {
   };
   const cancel = () => {};
   return (
-    <div className={classes.divider}>
-      <h2 className={classes.tituloL}>
-        ¿Estás seguro de que quieres cerrar la sesión?
-      </h2>
-      <button className={classes.btn} onClick={handleSubmit}>
-        Log out
-      </button>
-      <Link to="/" className={classes.linkT}>
-        Cancel
-      </Link>
+    <div className={classes.fondo}>
+      <div className={classes.divider}>
+        <h2 className={classes.tituloL}>
+          ¿Estás seguro de que quieres cerrar la sesión?
+        </h2>
+        <button className={classes.btn} onClick={handleSubmit}>
+          Log out
+        </button>
+        <Link to="/" className={classes.linkT}>
+          Cancel
+        </Link>
+      </div>
     </div>
   );
 }

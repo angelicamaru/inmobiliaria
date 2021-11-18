@@ -24,34 +24,36 @@ export default function Login() {
   };
   return (
     <>
-      <div className={classes.divider}>
-        <h2 className={classes.tituloL}>Login</h2>
-        <form onSubmit={handleSubmit}>
-          <div className="mb-3">
-            <input
-              type="email"
-              className="form-control"
-              name="email"
-              id="email"
-              placeholder="email"
-            />
-          </div>
-          <div className="mb-3">
-            <input
-              type="password"
-              name="pass"
-              className="form-control"
-              id="pass"
-              placeholder="password"
-            />
-          </div>
-          <button className={classes.btn} type="submit">
-            Log in
-          </button>
-        </form>
-        <Link to="/signup" className={classes.linkT}>
-          Sign Up now
-        </Link>
+      <div className={classes.fondo}>
+        <div className={classes.divider}>
+          <h2 className={classes.tituloL}>Login</h2>
+          <form onSubmit={handleSubmit}>
+            <div className="mb-3">
+              <input
+                type="email"
+                className="form-control"
+                name="email"
+                id="email"
+                placeholder="email"
+              />
+            </div>
+            <div className="mb-3">
+              <input
+                type="password"
+                name="pass"
+                className="form-control"
+                id="pass"
+                placeholder="password"
+              />
+            </div>
+            <button className={classes.btn} type="submit">
+              Log in
+            </button>
+          </form>
+          <Link to="/signup" className={classes.linkT}>
+            Sign Up now
+          </Link>
+        </div>
       </div>
     </>
   );
