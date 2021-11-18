@@ -38,12 +38,18 @@ function DetalleInmueble() {
     setData(result.data);
   });
 
-  const addComment = () => {
-    if (comment != "") {
-      newComment("Juanito"); //FALTA NOMBRE DE USER
-    } else {
-      alert("Llene el campo primero");
+  const addComment = async() => {
+    if (localStorage.getItem('id')) {
+      if (comment != "") {
+        const res =await axios.get('http://localhost:3001/users?'+'email='+localStorage.getItem('id'))
+        newComment(res.data[0]['name']); //FALTA NOMBRE DE USER
+      } else {
+        alert("Llene el campo primero");
+      }
+    }else{
+      window.location.replace('/login')
     }
+
   };
 
   const newComment = (name) => {
