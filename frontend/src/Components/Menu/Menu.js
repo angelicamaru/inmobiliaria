@@ -10,7 +10,7 @@ import Footer from "../Footer";
 import Contact from '../Contacto/Contact' 
 import Login from "../Log/Login";
 import Logout from "../Log/Logout";
-
+import SignUp from "../Log/SignUp";
 const MenuMain = () => {
 
   return (
@@ -66,6 +66,9 @@ const MenuMain = () => {
         </Route>
         <Route exact path="/logout">
           {localStorage.getItem('id') ?<Logout/>:<Redirect to='/'/>}
+        </Route>
+        <Route exact path="/signup">
+          {localStorage.getItem('id') ?<Redirect to='/'/>:<SignUp/>}
         </Route>
       </Switch>
       <Footer />

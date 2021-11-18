@@ -6,5 +6,21 @@ const App = () => {
 
 export default App;
 
-//json-server --watch db.json --port 3001
-//npm install axios
+/*
+
+cd frontend
+npm install
+
+cd backend
+npm install
+
+cd frontend
+npm start
+
+cd backend 
+npm run dev
+
+cd backend
+npm run db
+
+*/
