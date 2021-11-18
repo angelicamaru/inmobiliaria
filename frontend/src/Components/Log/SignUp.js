@@ -26,7 +26,7 @@ export default function SignUp() {
   };
   return (
     <div className={classes.divider}>
-      <h2>Sign in</h2>
+      <h2 className={classes.tituloL}>Sign in</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <input

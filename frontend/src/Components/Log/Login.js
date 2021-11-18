@@ -25,7 +25,7 @@ export default function Login() {
   return (
     <>
       <div className={classes.divider}>
-        <h2>Login</h2>
+        <h2 className={classes.tituloL}>Login</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <input
