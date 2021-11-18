@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link,Redirect } from "react-router-dom";
 import InicioSection from "../InicioSection/Inicio";
 import ServiciosSection from "../ServiciosSection/ServiciosSection";
 import InfoSection from "../InfoSection/InfoSection";
@@ -7,8 +7,12 @@ import VentaArriedoInmueble from "../Inmuebles/VentaArriedoInmueble";
 import classes from "./Menu.module.css";
 import DetalleInmueble from "../Inmuebles/DetalleInmueble";
 import Footer from "../Footer";
+import Contact from '../Contacto/Contact' 
+import Login from "../Log/Login";
+import Logout from "../Log/Logout";
 
 const MenuMain = () => {
+
   return (
     <Router>
       <div className={classes.menu}>
@@ -23,6 +27,7 @@ const MenuMain = () => {
           <Link to="/info">Quiénes somos?</Link>
 
           <Link to="/contacto">Contacto</Link>
+          {localStorage.getItem('id') ? <Link to="/logout">Log out</Link>:<Link to="/login">Log in</Link>}
         </div>
       </div>
       <Switch>
@@ -36,7 +41,7 @@ const MenuMain = () => {
           <InfoSection />
         </Route>
         <Route exact path="/contacto">
-          <p>Hola3</p>
+          <Contact/>
         </Route>
         <Route exact path="/ventaArriendo">
           <ContainerArriendoVenta />
@@ -55,6 +60,12 @@ const MenuMain = () => {
         </Route>
         <Route exact path="/avaluos">
           <InfoSection />
+        </Route>
+        <Route exact path="/login">
+          {localStorage.getItem('id') ? <Redirect to='/'/>:<Login />}
+        </Route>
+        <Route exact path="/logout">
+          {localStorage.getItem('id') ?<Logout/>:<Redirect to='/'/>}
         </Route>
       </Switch>
       <Footer />

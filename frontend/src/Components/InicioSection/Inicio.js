@@ -1,12 +1,11 @@
 import ServiciosInicio from "./ServicesInicio";
 import QuieneSomos from "./QuienesSomos";
-import Contactanos from "../Contactanos";
 import Footer from "../Footer";
 import classes from "../InicioSection/Inicio.module.css";
 import inmobiliaria from "../Images/Inmobiliaria.png";
 import casa from "../Images/Casa.jpeg";
 import Image from "react-bootstrap/Image";
-
+import Form from '../Contacto/Forms';
 const InicioSection = () => {
   return (
     <div className={classes.contenido}>
@@ -37,7 +36,16 @@ const InicioSection = () => {
       <div className={classes.casa}>
         <Image className={classes.imagen} src={casa} fluid />
       </div>
-      <Contactanos />
+      <div className="container">
+        <div class="row justify-content-md-center">
+
+          <div class="col col-lg-5">
+            <Form />
+          </div>
+        </div>
+
+      </div>
+
     </div>
   );
 };

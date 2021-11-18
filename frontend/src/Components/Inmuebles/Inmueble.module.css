@@ -31,7 +31,7 @@ h2 {
 .imageDiv {
   width: 23rem;
   height: 15rem;
-  margin-top: 2.5rem;
+  margin-top: 4rem;
 }
 .imageDivUno {
   width: 23rem;
@@ -72,8 +72,40 @@ a:hover {
 .texto {
   width: 23rem;
   height: 15rem;
-  margin-top: 2.5rem;
-  margin-left: 1.25rem;
-  padding-top: 2.1875rem;
+  margin-top: 3rem;
+  margin-left: 12.5rem;
   padding: 0.3125rem;
+}
+.mapa {
+  padding: 50px;
+  background-color: #fbfbec;
+}
+
+.comentario {
+  padding: 30px;
+  display: block;
+  justify-content: start;
+  text-align: start;
+  margin: 10px;
+  margin-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+
+.comentarioInfo {
+  justify-content: start;
+  text-align: start;
+  padding-bottom: 10px;
+}
+
+.inputComment {
+  border-color: rgb(191, 191, 195);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 45px;
+  border-width: 1.5px;
+  width: 100%;
 }
