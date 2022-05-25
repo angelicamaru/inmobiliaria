@@ -119,42 +119,6 @@
   ],
   "users": [
     {
-      "id": 1,
-      "email": "jvh@jvh.com",
-      "pass": "jvh1234",
-      "name": "jvh"
-    },
-    {
-      "id": 2,
-      "email": "prueba2@prueba.com",
-      "pass": "jvh1234",
-      "name": "prueba2"
-    },
-    {
-      "email": "pr@pr.com",
-      "name": "pr",
-      "pass": "pass",
-      "id": 3
-    },
-    {
-      "name": "gsdfg",
-      "email": "jvh@prueba.com",
-      "pass": "jkgk",
-      "id": 4
-    },
-    {
-      "name": "",
-      "email": "signuptest@gmail.com",
-      "pass": "admin123",
-      "id": 5
-    },
-    {
-      "name": "Angelica",
-      "email": "angel@gmail.com",
-      "pass": "123",
-      "id": 6
-    },
-    {
       "name": "Carlos",
       "email": "8a11jimenezc@gmail.com",
       "pass": "prueba",
