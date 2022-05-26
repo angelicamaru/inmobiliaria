@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Comentario from "./Comentario";
 import classes from "./Inmueble.module.css";
-import firebase from "../util/firebase";
 import { getDatabase, ref, set, get, push, onValue } from "firebase/database";
 
 const db = getDatabase();

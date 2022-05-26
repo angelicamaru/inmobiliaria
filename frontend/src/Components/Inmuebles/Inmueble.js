@@ -2,7 +2,6 @@ import classes from "./Inmueble.module.css";
 import {Link } from "react-router-dom";
 
 function Inmueble(props) {
-  debugger;
   var ruta = "/detalleInmueble/" + props.operacion + "/" + props.id;
   return (
     <div>

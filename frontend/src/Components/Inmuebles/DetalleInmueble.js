@@ -4,9 +4,9 @@ import axios from "axios";
 import classes from "./Inmueble.module.css";
 import Comentarios from "./Comentarios";
 import Map from "../Inmuebles/Map";
-import { getDatabase, ref, set, get, push } from "firebase/database";
+//import { getDatabase, ref, set, get, push } from "firebase/database";
 
-const db = getDatabase();
+//const db = getDatabase();
 
 function DetalleInmueble() {
   let { operacion } = useParams();
@@ -15,7 +15,7 @@ function DetalleInmueble() {
   const [comment, setComment] = useState("");
   const [comments, setComments] = useState([]);
 
-  useEffect(() => {
+  /*useEffect(() => {
     var commmentsArray = [];
 
     get(ref(db, operacion + "/" + id)).then((snapshot) => {
@@ -30,35 +30,40 @@ function DetalleInmueble() {
 
       setComments(commmentsArray);
     });
-  }, [comment]);
+  }, [comment]);*/
 
-  useEffect(async () => {
-    const result = await axios("http://localhost:3001/" + operacion + "/" + id);
+  useEffect(() => {
+    const fetchData = async () => {
+      const result = await axios.get("http://localhost:3001/" + operacion + "/" + id);
+      setData(result.data);
+    }
+    fetchData()
+      .catch(console.error);
 
-    setData(result.data);
-  });
+  }, []);
 
-  const addComment = async() => {
+  const addComment = async () => {
     if (localStorage.getItem('id')) {
       if (comment != "") {
-        const res =await axios.get('http://localhost:3001/users?'+'email='+localStorage.getItem('id'))
-        newComment(res.data[0]['name']); //FALTA NOMBRE DE USER
+        const res = await axios.get('http://localhost:3001/users?' + 'email=' + localStorage.getItem('id'))
+        console.log(res.data[0]['name']);
+        //newComment(res.data[0]['name']); //FALTA NOMBRE DE USER
       } else {
         alert("Llene el campo primero");
       }
-    }else{
+    } else {
       window.location.replace('/login')
     }
 
   };
 
-  const newComment = (name) => {
-    push(ref(db, operacion + "/" + id), {
-      name: name,
-      comment: comment,
-    });
-    setComment("");
-  };
+  /* const newComment = (name) => {
+     push(ref(db, operacion + "/" + id), {
+       name: name,
+       comment: comment,
+     });
+     setComment("");
+   };*/
 
   return (
     <div>
@@ -75,11 +80,12 @@ function DetalleInmueble() {
           <p>Área: {data.area}</p>
           <p>{data.descripcion}</p>
         </div>
+        <Comentarios commentsA={comments} />
       </div>
       <div className={classes.comentario}>
         <br />
         <h2>Comentarios</h2>
-        <Comentarios commentsA={comments} />
+
         <input
           placeholder="Ingresa tu comentario"
           className={classes.inputComment}

@@ -18,7 +18,7 @@ app.post('/mail', (req, res) => {
         service: 'gmail',
         auth: {
           user: 'prueba31079@gmail.com',
-          pass: 'Prueba12345',
+          pass: 'Prueba123456',
         },
       });
       
