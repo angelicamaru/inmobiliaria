@@ -7,7 +7,7 @@ const Footer = () => {
       <div className={classes.contenido}>
         <SocialN />
         <br></br>
-        <label>©2021 por Inmobiliaria</label>
+        <label>©2022 por Inmobiliaria</label>
       </div>
     </footer>
   );

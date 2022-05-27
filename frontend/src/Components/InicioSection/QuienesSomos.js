@@ -11,10 +11,12 @@ const QuieneSomos = () => {
       </div>
       <div className={classes.texto2}>
         <label>
-          Somos un emprendimiento que cuenta con un gran equipo de trabajo que
-          posee una basta experiencia en el campo inmobiliario, además contamos
-          con las mejores herramientas para ayudarte en todo lo que necesites.
+        IHI Inmobiliaria es una empresa enfocada específicamente en la venta y arriendo de propiedades
+         tanto en Bogotá como en la sabana de Bogotá respectivamente, esta empresa lleva 5 años 
+         en el mercado y a pesar de no ser una gran organización ha logrado generar confianza en 
+         los clientes con los que se ha trabajado.
         </label>
+        <br></br>
         <br></br>
         <label>
           Si estas buscando una empresa de desarrollo inmobiliario que te ayude

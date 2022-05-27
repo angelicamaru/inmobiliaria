@@ -123,6 +123,12 @@
       "email": "8a11jimenezc@gmail.com",
       "pass": "prueba",
       "id": 7
+    },
+    {
+      "name": "Carlos",
+      "email": "pruebita@gmail.com",
+      "pass": "1234",
+      "id": 8
     }
   ]
 }

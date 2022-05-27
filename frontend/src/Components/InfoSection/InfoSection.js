@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./InfoSection.module.css";
 import escaleras from "../Images/Escaleras.jpeg";
-import senior from "../Images/Senior.jpeg";
+import senior from "../Images/image.png";
 import Image from "react-bootstrap/Image";
 import Footer from "../Footer";
 import Contacto from "../Contacto";
@@ -16,16 +16,29 @@ function InfoSection() {
         </div>
         <div className={classes.texto}>
           <label>
-            Somos un emprendimiento que cuenta con un gran equipo de trabajo que
-            posee una basta experiencia en el campo inmobiliario, además
-            contamos con las mejores herramientas para ayudarte en todo lo que
-            necesites.
+          IHI Inmobiliaria es una empresa enfocada específicamente en la venta y arriendo de propiedades
+         tanto en Bogotá como en la sabana de Bogotá respectivamente, esta empresa lleva 5 años 
+         en el mercado y a pesar de no ser una gran organización ha logrado generar confianza en 
+         los clientes con los que se ha trabajado.
           </label>
+          <br></br><br></br>
           <label>
             Si estas buscando una empresa de desarrollo inmobiliario que te
             ayude a convertir tus ideas en una realidad, considera a
             Inmobiliaria, tenemos los conocimientos, las habilidades y el deseo
             para ayudarte a triunfar.
+          </label>
+          <br></br><br></br>
+          <label>
+          Misión: Proporcionar ayuda y asesoramiento guiado para tomar decisiones en pro del 
+          beneficio de sus inmuebles y de los clientes, garantizando en todo momento la protección 
+          del patrimonio de las partes, con transparencia y confiabilidad.
+          </label>
+          <br></br><br></br>
+          <label>
+          Visión: Trabajar con honradez y excelencia siempre de la mano de los clientes, basados 
+          en la confianza y la seriedad, actuando con pasión, profesionalismo y sentido del trabajo 
+          en equipo.
           </label>
         </div>
       </div>
@@ -39,7 +52,7 @@ function InfoSection() {
           </div>
           <div>
             <div className={classes.textotit}>
-              <label>N. Barbosa</label>
+              <label>Ingrid Hurtado</label>
             </div>
             <div className={classes.textocont}>
               <label>
